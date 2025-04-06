@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="cars" content="">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <title>car</title>
+</head>
+<body class="up">
+    <header>
+        <nav>
+            <img class ="logo" src="../imgs/loge.jpeg" alt="logo"/>
+            <ul class="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="form.html">Sign</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="fon">
+             <h1 >subscrip to keep in toutch with us</h1>
+             <br>
+             <br>
+               <img src="../imgs/th.jpeg" width="300px" height="80px">
+            </div>
+<div class="sign" >
+ <form onsubmit ="return validate()">
+    <label for="fname">first name :    </label>
+    <input class="in" type="text"  id="fname" required value="">
+    <br>
+    <label for="lname">last name :    </label>
+    <input class="in" type="text"  id="lname" required value="">
+    <br>
+    <label for="tel">telephone :    </label>
+      <input class="in" type="tel"  id="tel" required placeholder="you must enter 11 number" value=""  onclick="alert('you should enter 11 number ')" maxlength="11" minlength="11"  >  
+    <br>
+    <label for="address">address :    </label>
+    <input class="in" type="text"  id="address" required value="">
+    <br>
+    <label>gender :    </label>
+    <input class="in" type="radio" name="gender" id="ma" value="male" required value="">
+    <label for="ma">male</label>
+    <input class="in" type="radio" name="gender" id="fem" value="female" required value="">
+    <label for="fem">female</label>
+    <br>
+    <label for="mail">email :    </label>
+    <input class="in" type="email"  id="mail" required value="">
+    <br>
+    <label for="pass">password :    </label>
+    <input class="in" type="password"  id="pass" required value="" onclick="alert('you should care about that To check a password between 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character')">
+    <br>
+    <input class="in" type="submit" style="color:black ; " value="submit">
+    
+
+ </form>
+</div>
+    <div class="back">
+        <img class ="logo" src="../imgs/loge.jpeg" alt="logo"/>
+
+        <h1>why we need a car  </h1>
+        <ol type="1">
+            <li>Health and Emergencies</li>
+            <li> Independence and Freedom</li>
+            <li>Privacy</li>
+            <li>safety</li>
+            <li>save time</li>
+            <li>flexbillity</li>
+        </ol>
+    </div>
+    
+    <script src="../script.js"></script>
+</body>
+</html>

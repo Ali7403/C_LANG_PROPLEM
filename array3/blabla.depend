@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1640891412 source:c:\users\ip store\documents\blabla\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1640891412 source:c:\users\ip store\documents\array3\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

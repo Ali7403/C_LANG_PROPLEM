@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1641742069 source:c:\users\ip store\documents\pointer4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

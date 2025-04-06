@@ -1,0 +1,2 @@
+id  	  name  	 statos 	 
+123458     	ali ayman            	 1 
